@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anta", sans-serif;
+}
+
+body {
+  background: url(/images/3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 70px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.inputText {
+  width: 400px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  text-align: center;
+  border-bottom: 1px solid rgb(8, 203, 238);
+  font-size: 20px;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.btn {
+  width: 200px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.btn:hover {
+  background-color: #a7aeb8;
+  scale: 1.1;
+  transition: 1s;
+}
+
+.info {
+  text-align: center;
+  color: #0a0a0a;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info p {
+  margin-top: 20px;
+}
+
+#sicaklik {
+  font-size: 5rem;
+}
+
+#hissedilen {
+  font-size: 1rem;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
